@@ -9,92 +9,72 @@ export default function Home() {
       />
 
       {/* TOP-BAR */}
-      <div className="fixed top-0 left-0 w-full h-20 bg-white/10 backdrop-blur-xl flex justify-between items-center px-10 z-50">
+      <div className="fixed top-0 left-0 w-full h-20 bg-white/15 backdrop-blur-xl flex justify-between items-center px-10 z-50">
         {/* ЛОГО */}
         <img src="/logo.png" className="h-10 w-auto" />
 
         {/* НЕОНОВАЯ КНОПКА */}
-        <img src="/knop.png" className="h-12 cursor-pointer" />
+        <img src="/knop.png" className="h-14 cursor-pointer" />
       </div>
 
-      {/* КОНТЕНТ НИЖЕ БАРА */}
+      {/* КОНТЕНТ */}
       <div className="flex flex-col items-center mt-40">
 
-        {/* ВЕРХНИЕ ТРИ ИКОНКИ */}
+        {/* ВЕРХНИЕ ИКОНКИ */}
         <div className="flex gap-14 mt-10">
-
-          {/* Create Waves */}
           <div className="flex flex-col items-center">
             <img src="/dela.png" className="w-44" />
             <p className="text-white text-xl mt-4">Create Waves</p>
           </div>
 
-          {/* Manage Tasks */}
           <div className="flex flex-col items-center">
             <img src="/artist.png" className="w-44" />
             <p className="text-white text-xl mt-4">Manage Tasks</p>
           </div>
 
-          {/* Gain Insights */}
           <div className="flex flex-col items-center">
             <img src="/volni.png" className="w-44" />
             <p className="text-white text-xl mt-4">Gain Insights</p>
           </div>
-
         </div>
 
-        {/* === ТРИ КВАДРАТА === */}
+        {/* ТРИ КВАДРАТА */}
         <div className="relative w-full flex justify-center items-start gap-[52px] mt-24">
 
-          {/* AUDITORY */}
           <div className="relative w-[320px] h-[320px]">
-            <img
-              src="/auditory.png"
-              className="w-full h-full object-cover rounded-2xl"
-            />
+            <img src="/auditory.png" className="w-full h-full object-cover rounded-2xl" />
           </div>
 
-          {/* KING */}
           <div className="relative w-[320px] h-[320px]">
-            <img
-              src="/king.png"
-              className="w-full h-full object-cover rounded-2xl"
-            />
+            <img src="/king.png" className="w-full h-full object-cover rounded-2xl" />
           </div>
 
-          {/* REITING */}
           <div className="relative w-[320px] h-[320px]">
-            <img
-              src="/reiting.png"
-              className="w-full h-full object-cover rounded-2xl"
-            />
+            <img src="/reiting.png" className="w-full h-full object-cover rounded-2xl" />
           </div>
 
-          {/* КРУЖОЧКИ ПОВЕРХ КАРТОЧЕК */}
-          <div className="absolute bottom-[-55px] left-1/2 -translate-x-1/2 flex gap-20">
+          {/* КРУЖОЧКИ ПОВЕРХ */}
+          <div className="absolute bottom-[-25px] left-1/2 -translate-x-1/2 flex gap-20">
 
-            {/* Start a Wave */}
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full border border-[#7A3FFF] flex justify-center items-center bg-black/30 backdrop-blur-md">
-                <img src="/minivolna.png" className="w-6 h-6" />
+              <div className="w-13 h-13 rounded-full border border-[#7A3FFF] flex justify-center items-center bg-black/30 backdrop-blur-md">
+                <img src="/minivolna.png" className="w-7 h-7" />
               </div>
-              <p className="text-white text-lg">Start a Wave</p>
+              <p className="text-white text-xl">Start a Wave</p>
             </div>
 
-            {/* Track Progress */}
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full border border-[#7A3FFF] flex justify-center items-center bg-black/30 backdrop-blur-md">
-                <img src="/minigrafik.png" className="w-6 h-6" />
+              <div className="w-13 h-13 rounded-full border border-[#7A3FFF] flex justify-center items-center bg-black/30 backdrop-blur-md">
+                <img src="/minigrafik.png" className="w-7 h-7" />
               </div>
-              <p className="text-white text-lg">Track Progress</p>
+              <p className="text-white text-xl">Track Progress</p>
             </div>
 
-            {/* Reap Rewards */}
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full border border-[#7A3FFF] flex justify-center items-center bg-black/30 backdrop-blur-md">
-                <img src="/minigalka.png" className="w-6 h-6" />
+              <div className="w-13 h-13 rounded-full border border-[#7A3FFF] flex justify-center items-center bg-black/30 backdrop-blur-md">
+                <img src="/minigalka.png" className="w-7 h-7" />
               </div>
-              <p className="text-white text-lg">Reap Rewards</p>
+              <p className="text-white text-xl">Reap Rewards</p>
             </div>
 
           </div>
